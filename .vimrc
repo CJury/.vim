@@ -15,4 +15,5 @@ nnoremap <Leader>ev :vsplit $MYVIMRC<CR>
 nnoremap <Leader>sv :source $MYVIMRC<CR>
 nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
-nnoremap <Leader><F5> :<C-u>Shell python %<CR>
+" Plugin helpers "
+nnoremap <Leader>R :REPLToggle<CR>
