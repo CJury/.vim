@@ -1,0 +1,3 @@
+[submodule "pack/plugins/start/vim-repl"]
+	path = pack/plugins/start/vim-repl
+	url = https://github.com/sillybun/vim-repl.git
