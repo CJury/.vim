@@ -26,3 +26,7 @@ nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>i i_<ESC>r
 " Terminal mode remappings
 tnoremap <Leader>p <C-w>""
+
+let g:python_highlight_all = 1
+autocmd BufNewFile, BufRead *.py :Python3Syntax
+
