@@ -29,7 +29,7 @@ nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>i i_<ESC>r
 " Terminal mode remappings
-tnoremap <Leader>p <C-w>""
+" tnoremap <Leader>p <C-w>""
 
 autocmd BufNewFile, BufRead *.py :Python3Syntax
 
@@ -42,7 +42,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checkers = ['pylint']
 
 nnoremap <Leader>epl :vsplit ~/.pylintrc<CR>
 
-autocmd BufNewFile, BufRead *.py :let g:syntastic_python_checkers = ['pylint']
