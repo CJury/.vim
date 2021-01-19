@@ -28,6 +28,10 @@ nnoremap <Leader>sv :source $MYVIMRC<CR>
 nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>" viw<ESC>a"<ESC>bi"<ESC>lel
 nnoremap <Leader>i i_<ESC>r
+
+" Hex mode remappings
+nnoremap <Leader>H :Hexmode<CR>
+vnoremap <Leader>H :Hexmode<CR>
 " Terminal mode remappings
 " tnoremap <Leader>p <C-w>""
 
@@ -46,3 +50,7 @@ let g:syntastic_python_checkers = ['pylint']
 
 nnoremap <Leader>epl :vsplit ~/.pylintrc<CR>
 
+"YCM options
+
+" Extra confif files
+source hexmode.vim
