@@ -52,5 +52,5 @@ nnoremap <Leader>epl :vsplit ~/.pylintrc<CR>
 
 "YCM options
 
-" Extra confif files
-source hexmode.vim
+" Extra config files
+source ~/.vim/hexmode.vim
