@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/vim-pydocstring"]
 	path = pack/plugins/start/vim-pydocstring
 	url = https://github.com/heavenshell/vim-pydocstring.git
+[submodule "pack/plugins/start/YouCompleteMe"]
+	path = pack/plugins/start/YouCompleteMe
+	url = git@github.com:ycm-core/YouCompleteMe.git
