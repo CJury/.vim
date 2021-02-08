@@ -32,25 +32,8 @@ nnoremap <Leader>i i_<ESC>r
 " Hex mode remappings
 nnoremap <Leader>H :Hexmode<CR>
 vnoremap <Leader>H :Hexmode<CR>
-" Terminal mode remappings
-" tnoremap <Leader>p <C-w>""
 
 autocmd BufNewFile, BufRead *.py :Python3Syntax
 
-"Syntastic options
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_checkers = ['pylint']
-
 nnoremap <Leader>epl :vsplit ~/.pylintrc<CR>
 
-"YCM options
-
-" Extra config files
-source ~/.vim/hexmode.vim
