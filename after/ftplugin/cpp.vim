@@ -11,3 +11,5 @@ nnoremap <Leader>dx :Dox<CR>
 nnoremap <Leader>dxa :DoxAuthor<CR>
 nnoremap <Leader>dxl :DoxLic<CR>
 nnoremap <Leader>dxb :DoxBlock<CR>
+
+packadd termdebug
