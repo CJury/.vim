@@ -7,9 +7,6 @@
 [submodule "pack/plugins/start/syntastic"]
 	path = pack/plugins/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule "pack/plugins/start/vim-pydocstring"]
-	path = pack/plugins/start/vim-pydocstring
-	url = https://github.com/heavenshell/vim-pydocstring.git
 [submodule "pack/plugins/start/YouCompleteMe"]
 	path = pack/plugins/start/YouCompleteMe
 	url = git@github.com:ycm-core/YouCompleteMe.git
@@ -34,3 +31,9 @@
 [submodule "pack/plugins/start/vim-cpp-enhanced-highlight"]
 	path = pack/plugins/start/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "pack/plugins/start/vim-python-docstring"]
+	path = pack/plugins/start/vim-python-docstring
+	url = git@github.com:pixelneo/vim-python-docstring.git
+[submodule "pack/plugins/start/vim-unreal"]
+	path = pack/plugins/start/vim-unreal
+	url = https://github.com/drichardson/vim-unreal.git
