@@ -37,3 +37,6 @@
 [submodule "pack/plugins/start/vim-unreal"]
 	path = pack/plugins/start/vim-unreal
 	url = https://github.com/drichardson/vim-unreal.git
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git

@@ -65,6 +65,12 @@ nnoremap <Leader>gt :YcmCompleter GoTo<CR>
 " unreal-engine
 nnoremap <Leader>ub :call UnrealBuild({})<CR>
 
+" nerdtree
+nnoremap <Leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 " Display settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""
